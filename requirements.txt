@@ -1,0 +1,54 @@
+pytz==2018.7  # https://github.com/stub42/pytz
+python-slugify==1.2.6  # https://github.com/un33k/python-slugify
+Pillow==5.3.0  # https://github.com/python-pillow/Pillow
+argon2-cffi==18.3.0  # https://github.com/hynek/argon2_cffi
+redis>=2.10.6, < 3  # pyup: < 3 # https://github.com/antirez/redis
+
+# Django
+# ------------------------------------------------------------------------------
+django==2.2.2  # pyup: < 2.1  # https://www.djangoproject.com/
+django-environ==0.4.5  # https://github.com/joke2k/django-environ
+django-model-utils==3.1.2  # https://github.com/jazzband/django-model-utils
+django-allauth==0.38.0  # https://github.com/pennersr/django-allauth
+django-crispy-forms==1.7.2  # https://github.com/django-crispy-forms/django-crispy-forms
+django-redis==4.10.0  # https://github.com/niwinz/django-redis
+whitenoise==4.1.2  # https://github.com/evansd/whitenoise
+
+# Django REST Framework
+djangorestframework==3.9.0  # https://github.com/encode/django-rest-framework
+coreapi==2.3.3  # https://github.com/core-api/python-client
+
+# Custom requirements
+django-rest-auth==0.9.3
+django-fileprovider==0.1.4
+jsonfield==2.0.2
+django-cors-headers==2.4.0
+cairocffi==0.9.0
+CairoSVG==2.2.1
+selenium==3.141.0
+pytest-cov==2.6.0
+PyJWT==1.6.4
+pyAesCrypt==0.4.2
+boto3==1.9.148
+django-simple-history==2.7.2
+
+# Docusign
+docusign-esign==2.0.1
+pendulum==2.0.5
+pem==19.1.0
+
+# local
+
+gunicorn==19.9.0  # https://github.com/benoitc/gunicorn
+psycopg2==2.7.4 --no-binary psycopg2  # https://github.com/psycopg/psycopg2
+raven==6.9.0  # https://github.com/getsentry/raven-python
+
+# Django
+# ------------------------------------------------------------------------------
+django-storages[boto3]==1.7.1  # https://github.com/jschneier/django-storages
+django-anymail[mailgun]==5.0  # https://github.com/anymail/django-anymail
+
+pytest==4.0.1  # https://github.com/pytest-dev/pytest
+pytest-sugar==0.9.2  # https://github.com/Frozenball/pytest-sugar
+pytest-django==3.4.4  # https://github.com/pytest-dev/pytest-django
+mypy==0.641
